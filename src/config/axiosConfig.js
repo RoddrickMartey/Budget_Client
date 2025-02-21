@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // Adjust base URL as needed
+  baseURL: "https://budget-api-002e.onrender.com/api", // Adjust base URL as needed
   headers: {
     "Content-Type": "application/json",
   },
